@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+/*eee2dc */
+/*472b6b */
+body{margin:auto}
+.container{width:1170px;margin:auto}
+
+body, html {
+  height: 100%;
+}
+.header { 
+    margin: 0;
+  position: absolute;
+  top: 44%;
+  transform: translateY(-50%);
+	font-size: 60px;
+    font-family: sans-serif;
+    color: firebrick;
+    font-weight: 600;
+}
+.first {
+
+background-image:url("globe.jpg");
+height: 100%;
+
+	 background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.menu {
+	margin: 0;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    top: 10%;
+    font-family: system-ui;
+    color: chocolate;
+	
+}
+
+.header2 { 
+   margin: 0;
+    position: absolute;
+    top: 59%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #521b1b;
+    font-weight: bold;
+}
+
+.button {
+    text-align: left;
+	margin: 0;
+  position: absolute;
+  top: 68%;
+  transform: translateY(-50%);
+   
+}
+.button a {
+   padding: 10px;
+    background-color: #934524;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.font i {
+    text-align: left;
+	margin: 0;
+  position: absolute;
+  top: 70%;
+       margin-top: 50px;
+    color: brown;
+    font-size: 30px;	
+    
+}
